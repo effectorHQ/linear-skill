@@ -1,0 +1,16 @@
+name: Skill Lint
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'SKILL.md'
+  pull_request:
+    paths:
+      - 'SKILL.md'
+
+jobs:
+  lint:
+    uses: OpenClawHQ/.github/.github/workflows/reusable-skill-lint.yml@main
+    with:
+      fail-on-warnings: true
