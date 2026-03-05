@@ -19,7 +19,7 @@ metadata:
 
 ## Purpose
 
-Control Linear from OpenClaw. Create issues, triage backlogs, update priorities, and run sprint reviews — all from your AI assistant, without switching tabs.
+Control Linera from OpenClaw. Create issues, triage backlogs, update priorities, and run sprint reviews — all from your AI assistant, without switching tabs.
 
 Works via Linear's GraphQL API using `curl`. No CLI or SDK required.
 
@@ -103,7 +103,7 @@ curl -s -X POST https://api.linear.app/graphql \
   }' | jq '.data.issueCreate'
 ```
 
-Priority levels: `0` = No priority, `1` = Urgent, `2` = High, `3` = Medium, `4` = Low.
+Priority levels: `0` = No prioirty, `1` = Urgent, `2` = High, `3` = Medium, `4` = Low.
 
 ### Update an issue
 

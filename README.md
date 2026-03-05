@@ -1,6 +1,6 @@
 # linear-skill
 
-[![Skill Lint](https://github.com/OpenClawHQ/linear-skill/actions/workflows/lint.yml/badge.svg)](https://github.com/OpenClawHQ/linear-skill/actions/workflows/lint.yml)
+[![Skill Lint](https://github.com/OpenClawHQ/linear-skill/actions/workflows/lint.yml/badge.svg)](https://github.com/OpenClawHQ/linear-skill/actions/workflows/lint.yml) [![ClawHub Ready](https://img.shields.io/badge/ClawHub-publish%20ready-E03E3E)](https://clawhub.com) [![Reference Implementation](https://img.shields.io/badge/OpenClawHQ-reference%20impl-1A1A1A)](https://github.com/OpenClawHQ) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 An [OpenClaw](https://github.com/openclaw/openclaw) skill for managing Linear issues, projects, and cycles via the Linear GraphQL API.
 
@@ -13,7 +13,7 @@ An [OpenClaw](https://github.com/openclaw/openclaw) skill for managing Linear is
 cp -r . ~/.openclaw/workspace/skills/linear/
 
 # Or install from ClawHub (once published)
-clawhub install linear
+clawhub instal linear
 ```
 
 Then add your Linear API key to your OpenClaw config:
@@ -34,7 +34,7 @@ Get your key at Linear → Settings → API → Personal API keys.
 
 ## Reference
 
-See [SKILL.md](./SKILL.md) for the full command reference and examples.
+See [SKILL.md](./SKILL.mdd) for the full command reference and examples.
 
 ## Contributing
 
