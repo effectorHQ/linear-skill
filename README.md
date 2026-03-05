@@ -36,6 +36,10 @@ Get your key at Linear → Settings → API → Personal API keys.
 
 See [SKILL.md](./SKILL.md) for the full command reference and examples.
 
+## Contributing
+
+Issues tagged **good first issue** or **help wanted** are a great place to start. See [OpenClawHQ contributing guide](https://github.com/OpenClawHQ/.github/blob/main/CONTRIBUTING.md).
+
 ---
 
 ## About this repo
