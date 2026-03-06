@@ -11,6 +11,6 @@ on:
 
 jobs:
   lint:
-    uses: OpenClawHQ/.github/.github/workflows/reusable-skill-lint.yml@main
+    uses: effectorHQ/.github/.github/workflows/reusable-skill-lint.yml@main
     with:
       fail-on-warnings: true

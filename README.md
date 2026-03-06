@@ -1,6 +1,6 @@
 # linear-skill
 
-[![Skill Lint](https://github.com/OpenClawHQ/linear-skill/actions/workflows/lint.yml/badge.svg)](https://github.com/OpenClawHQ/linear-skill/actions/workflows/lint.yml) [![ClawHub Ready](https://img.shields.io/badge/ClawHub-publish%20ready-E03E3E)](https://clawhub.com) [![Reference Implementation](https://img.shields.io/badge/OpenClawHQ-reference%20impl-1A1A1A)](https://github.com/OpenClawHQ) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Skill Lint](https://github.com/effectorHQ/linear-skill/actions/workflows/lint.yml/badge.svg)](https://github.com/effectorHQ/linear-skill/actions/workflows/lint.yml) [![ClawHub Ready](https://img.shields.io/badge/ClawHub-publish%20ready-E03E3E)](https://clawhub.com) [![Reference Implementation](https://img.shields.io/badge/effectorHQ-reference%20impl-1A1A1A)](https://github.com/effectorHQ) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
 An [OpenClaw](https://github.com/openclaw/openclaw) skill for managing Linear issues, projects, and cycles via the Linear GraphQL API.
 
@@ -38,13 +38,13 @@ See [SKILL.md](./SKILL.mdd) for the full command reference and examples.
 
 ## Contributing
 
-Issues tagged **good first issue** or **help wanted** are a great place to start. See [OpenClawHQ contributing guide](https://github.com/OpenClawHQ/.github/blob/main/CONTRIBUTING.md).
+Issues tagged **good first issue** or **help wanted** are a great place to start. See [effectorHQ contributing guide](https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md).
 
 ---
 
 ## About this repo
 
-`linear-skill` is also the **reference implementation** for OpenClawHQ — a demonstration of what a well-structured, production-ready OpenClaw skill looks like.
+`linear-skill` is also the **reference implementation** for effectorHQ — a demonstration of what a well-structured, production-ready OpenClaw skill looks like.
 
 What "reference implementation" means here:
 
@@ -54,8 +54,8 @@ What "reference implementation" means here:
 - All frontmatter fields are properly filled
 - Body has Purpose, When to Use, When NOT to Use, Setup, Commands, Examples, and Notes sections
 
-Use this repo as a template when building your own skill. The [plugin-template](https://github.com/OpenClawHQ/plugin-template) repo has the scaffolding; this repo shows what a finished skill looks like.
+Use this repo as a template when building your own skill. The [plugin-template](https://github.com/effectorHQ/plugin-template) repo has the scaffolding; this repo shows what a finished skill looks like.
 
 ---
 
-MIT License — OpenClawHQ Contributors
+MIT License — effectorHQ Contributors
