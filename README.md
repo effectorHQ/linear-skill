@@ -13,7 +13,7 @@ An [OpenClaw](https://github.com/openclaw/openclaw) skill for managing Linear is
 cp -r . ~/.openclaw/workspace/skills/linear/
 
 # Or install from ClawHub (once published)
-clawhub instal linear
+clawhub install linear
 ```
 
 Then add your Linear API key to your OpenClaw config:
