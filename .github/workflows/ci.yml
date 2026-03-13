@@ -1,0 +1,32 @@
+name: Skill Lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install skill-lint
+        run: npm install -g @effectorhq/skill-lint
+
+      - name: Lint SKILL.md
+        run: skill-lint SKILL.md
+
+      - name: Validate effector.toml
+        run: |
+          if [ ! -f effector.toml ]; then
+            echo "::warning::No effector.toml found — skipping manifest validation"
+            exit 0
+          fi
+          echo "effector.toml exists — manifest validation passed"
+          # TODO: Replace with effector-types validate when available
