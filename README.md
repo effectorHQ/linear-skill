@@ -1,6 +1,6 @@
 # linear-skill
 
-[![Skill Lint](https://github.com/effectorHQ/linear-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/effectorHQ/linear-skill/actions/workflows/ci.yml) [![ClawHub Ready](https://img.shields.io/badge/ClawHub-publish%20ready-E03E3E)](https://clawhub.com) [![Reference Implementation](https://img.shields.io/badge/effectorHQ-reference%20impl-1A1A1A)](https://github.com/effectorHQ) [![License: Apache 2.0](https://img.shields.io/badge/license-Apache-2.0-blue.svg)](./LICENSE)
+[![Skill Lint](https://github.com/effectorHQ/linear-skill/actions/workflows/ci.yml/badge.svg)](https://github.com/effectorHQ/linear-skill/actions/workflows/ci.yml) [![ClawHub Ready](https://img.shields.io/badge/ClawHub-publish%20ready-E03E3E)](https://clawhub.com) [![Reference Implementation](https://img.shields.io/badge/effectorHQ-reference%20impl-1A1A1A)](https://github.com/effectorHQ)
 
 An [OpenClaw](https://github.com/openclaw/openclaw) skill for managing Linear issues, projects, and cycles via the Linear GraphQL API.
 
@@ -53,7 +53,7 @@ linear-skill/
 ├── SKILL.md          # Agent-executable instructions (the actual skill)
 ├── effector.toml     # Typed manifest (interface + permissions + runtime binding)
 ├── README.md         # You're reading this
-├── LICENSE           # Apache-2.0
+├── LICENSE.md        # Apache-2.0
 ├── CHANGELOG.md      # Version history
 └── .github/
     └── workflows/
@@ -80,10 +80,6 @@ See [SKILL.md](./SKILL.md) for the full command reference and examples.
 
 Issues tagged **good first issue** or **help wanted** are a great place to start. See [effectorHQ contributing guide](https://github.com/effectorHQ/.github/blob/main/CONTRIBUTING.md).
 
----
-
-Apache License 2.0 — effectorHQ Contributors
-
 ## License
 
-This project is currently licensed under the Apache 2.0 License 。
+This project is currently licensed under the [Apache License, Version 2.0](LICENSE.md) 。
