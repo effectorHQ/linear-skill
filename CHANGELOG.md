@@ -14,7 +14,7 @@
 - Typo in Purpose section ("Linera" → "Linear")
 - Typo in create command ("No prioirty" → "No priority")
 - README link to SKILL.md (was "SKILL.mdd")
-- README install command ("instal" → "install")
+- README install command ("install" → "install")
 
 ## [0.1.0] — 2026-02-15
 
